@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgentHub - Hub de Agentes de IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⬡</span>
+        AgentHub
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features">Recursos</a></li>
+        <li><a href="#agents">Agentes</a></li>
+        <li><a href="#how-it-works">Como Funciona</a></li>
+        <li><a href="#pricing">Planos</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn btn-ghost">Entrar</a>
+        <a href="#" class="btn btn-primary">Comece Gratis</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-glow"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">Novo: Agentes com memoria de longo prazo</div>
+      <h1>O Hub definitivo para seus <span class="gradient-text">Agentes de IA</span></h1>
+      <p class="hero-subtitle">
+        Crie, gerencie e orquestre agentes inteligentes em um unico lugar.
+        Automatize fluxos complexos e escale sua operacao com o poder da IA.
+      </p>
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary btn-lg">
+          Comece Gratuitamente
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#" class="btn btn-outline btn-lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          Ver Demo
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">10k+</span>
+          <span class="stat-label">Agentes Criados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">5M+</span>
+          <span class="stat-label">Tarefas Executadas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">99.9%</span>
+          <span class="stat-label">Uptime</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logos -->
+  <section class="logos-section">
+    <div class="container">
+      <p class="logos-title">Usado por times de empresas inovadoras</p>
+      <div class="logos-grid">
+        <div class="logo-item">TechCorp</div>
+        <div class="logo-item">DataFlow</div>
+        <div class="logo-item">NeuralOps</div>
+        <div class="logo-item">CloudSync</div>
+        <div class="logo-item">AutoScale</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recursos</span>
+        <h2>Tudo que voce precisa para gerenciar agentes de IA</h2>
+        <p>Uma plataforma completa para criar, conectar e escalar seus agentes inteligentes.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>Builder Visual</h3>
+          <p>Crie agentes complexos com nossa interface drag-and-drop. Sem necessidade de codigo.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Execucao em Tempo Real</h3>
+          <p>Agentes executam tarefas instantaneamente com baixa latencia e alta confiabilidade.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Multi-Agentes</h3>
+          <p>Orquestre multiplos agentes que colaboram entre si para resolver tarefas complexas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3>Seguranca Avancada</h3>
+          <p>Controle total sobre permissoes, acesso e dados com criptografia de ponta a ponta.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Monitoramento</h3>
+          <p>Dashboards em tempo real com metricas, logs e alertas para todos os seus agentes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>
+          </div>
+          <h3>Integracoes</h3>
+          <p>Conecte com APIs, bancos de dados, Slack, WhatsApp e mais de 100 ferramentas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agents Showcase -->
+  <section class="agents" id="agents">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Agentes</span>
+        <h2>Agentes prontos para usar</h2>
+        <p>Comece rapido com nossos agentes pre-configurados ou crie o seu do zero.</p>
+      </div>
+      <div class="agents-grid">
+        <div class="agent-card">
+          <div class="agent-avatar" style="--agent-color: #6366f1;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="agent-info">
+            <h3>Atendente Virtual</h3>
+            <p>Atendimento ao cliente 24/7 com respostas inteligentes e escalacao automatica.</p>
+            <div class="agent-tags">
+              <span class="tag">Suporte</span>
+              <span class="tag">Chat</span>
+              <span class="tag">NLP</span>
+            </div>
+          </div>
+        </div>
+        <div class="agent-card">
+          <div class="agent-avatar" style="--agent-color: #8b5cf6;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="agent-info">
+            <h3>Analista de Dados</h3>
+            <p>Analise automatica de relatorios, planilhas e dashboards com insights acionaveis.</p>
+            <div class="agent-tags">
+              <span class="tag">Analytics</span>
+              <span class="tag">BI</span>
+              <span class="tag">Reports</span>
+            </div>
+          </div>
+        </div>
+        <div class="agent-card">
+          <div class="agent-avatar" style="--agent-color: #ec4899;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="agent-info">
+            <h3>Gerador de Conteudo</h3>
+            <p>Crie textos, posts, emails e copys otimizadas para diferentes canais e publicos.</p>
+            <div class="agent-tags">
+              <span class="tag">Marketing</span>
+              <span class="tag">Copy</span>
+              <span class="tag">SEO</span>
+            </div>
+          </div>
+        </div>
+        <div class="agent-card">
+          <div class="agent-avatar" style="--agent-color: #06b6d4;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <div class="agent-info">
+            <h3>Dev Assistant</h3>
+            <p>Assistente de codigo que revisa PRs, sugere melhorias e documenta automaticamente.</p>
+            <div class="agent-tags">
+              <span class="tag">Code</span>
+              <span class="tag">Review</span>
+              <span class="tag">Docs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it Works -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Como Funciona</span>
+        <h2>Comece em 3 passos simples</h2>
+        <p>Do zero a agentes rodando em producao em minutos.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Escolha ou Crie</h3>
+            <p>Selecione um agente do nosso marketplace ou construa o seu usando o builder visual. Defina comportamento, personalidade e ferramentas.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Configure e Conecte</h3>
+            <p>Integre seus agentes com suas ferramentas favoritas: APIs, bancos de dados, CRMs, plataformas de mensagem e muito mais.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Lance e Monitore</h3>
+            <p>Coloque seus agentes em producao com um clique. Acompanhe performance, custos e resultados pelo dashboard em tempo real.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Planos</span>
+        <h2>Precos simples e transparentes</h2>
+        <p>Comece gratis e escale conforme sua necessidade.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <div class="price-header">
+            <h3>Starter</h3>
+            <p class="price-desc">Para quem esta comecando a explorar agentes de IA.</p>
+          </div>
+          <div class="price-value">
+            <span class="currency">R$</span>
+            <span class="amount">0</span>
+            <span class="period">/mes</span>
+          </div>
+          <ul class="price-features">
+            <li>3 agentes ativos</li>
+            <li>1.000 execucoes/mes</li>
+            <li>Integracao basica</li>
+            <li>Suporte por email</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Comece Gratis</a>
+        </div>
+        <div class="price-card featured">
+          <div class="price-badge">Mais Popular</div>
+          <div class="price-header">
+            <h3>Pro</h3>
+            <p class="price-desc">Para times que precisam de poder e flexibilidade.</p>
+          </div>
+          <div class="price-value">
+            <span class="currency">R$</span>
+            <span class="amount">197</span>
+            <span class="period">/mes</span>
+          </div>
+          <ul class="price-features">
+            <li>20 agentes ativos</li>
+            <li>50.000 execucoes/mes</li>
+            <li>Todas as integracoes</li>
+            <li>Multi-agentes</li>
+            <li>Suporte prioritario</li>
+            <li>Analytics avancado</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block">Assinar Pro</a>
+        </div>
+        <div class="price-card">
+          <div class="price-header">
+            <h3>Enterprise</h3>
+            <p class="price-desc">Para operacoes de grande escala com necessidades customizadas.</p>
+          </div>
+          <div class="price-value">
+            <span class="amount">Sob consulta</span>
+          </div>
+          <ul class="price-features">
+            <li>Agentes ilimitados</li>
+            <li>Execucoes ilimitadas</li>
+            <li>Deploy on-premise</li>
+            <li>SLA garantido</li>
+            <li>Gerente de conta dedicado</li>
+            <li>Treinamento personalizado</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Falar com Vendas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow"></div>
+        <h2>Pronto para revolucionar sua operacao com IA?</h2>
+        <p>Junte-se a milhares de empresas que ja estao usando o AgentHub para automatizar e escalar seus processos.</p>
+        <div class="cta-actions">
+          <a href="#" class="btn btn-primary btn-lg">
+            Criar Conta Gratis
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-icon">⬡</span>
+            AgentHub
+          </a>
+          <p>A plataforma mais completa para criar e gerenciar agentes de IA.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Produto</h4>
+          <ul>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Precos</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 AgentHub. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
