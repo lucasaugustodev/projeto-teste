@@ -51,3 +51,4 @@ export function isValidAmount(amount) {
   const decimals = amount.toString().split('.')[1];
   return !decimals || decimals.length <= 2;
 }
+// trigger
