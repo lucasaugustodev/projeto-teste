@@ -52,3 +52,4 @@ export function isValidAmount(amount) {
   return !decimals || decimals.length <= 2;
 }
 // trigger
+// ai v2
